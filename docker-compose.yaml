@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  linuxvm:
+    build: docker/sampleLinuxMachine
+    container_name: linux_test_vm
+    tty: true
+    volumes:
+      - ./data/sampleLinuxMachine:/home/tester/shared
