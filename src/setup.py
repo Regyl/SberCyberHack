@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'detect-threats=SberCyberHack.main:main',
+            'detect-threats=track3-network-security.main:main',
         ],
     },
 )
